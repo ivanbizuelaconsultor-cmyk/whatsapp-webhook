@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-VERIFY_TOKEN = "mi_token_verification"  # EXACTAMENTE el mismo que pusiste en Meta
+VERIFY_TOKEN = "12345"  # EXACTAMENTE el mismo que pusiste en Meta
 
 @app.route("/", methods=["GET"])
 def verify_webhook():
